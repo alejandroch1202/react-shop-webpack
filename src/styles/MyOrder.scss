@@ -1,11 +1,16 @@
 @import "vars";
 
 .MyOrder {
+  background-color: var(--white);
+  position: absolute;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  border: 1px solid var(--very-light-pink);
   width: 360px;
   padding: 24px;
   box-sizing: border-box;
   position: absolute;
-  right: 0;
 }
 .title-container {
   display: flex;
